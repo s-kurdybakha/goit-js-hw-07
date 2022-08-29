@@ -62,7 +62,7 @@ function onEscKeyPress(evt) {
 
 // Подивися в документації секцію «Options» і додай відображення підписів до зображень з атрибута alt. Нехай підпис буде знизу і з'являється через 250 мілісекунд після відкриття зображення.
 
-var lightbox = new SimpleLightboooox('.gallery a', {
+var lightbox = new SimpleLightbox('.gallery a', {
     captionsData: "alt",
     captionDelay: 250,
     captionPosition: 'bottom',
